@@ -17,13 +17,14 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #292929;
+    padding: 10px;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: #CFCFEA;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -33,7 +34,7 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 2px solid ;
 }
 
 .profile .profile-image {
@@ -46,10 +47,11 @@
     font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .profession {
-    color: #eeeeee;
+    color: #744FC6;
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
@@ -57,33 +59,33 @@
 
 /* .contact-info { border-bottom: 2px solid #1B2631; } */
 .left-title {
-    color: #eeeeee;
+    color: #CFCFEA;
     font-size: 20px;
 }
 
 .contact-info ul {
-    padding-top: 1.5rem;
+    padding: 10px;
 }
 
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
-    color: #eeeeee;
+    color: #744FC6;
 }
 
 .contact-info ul li i,
 .references ul li i {
     padding-right: 1rem;
     font-size: 18px;
-    color: #eeeeee;
+    color: #CFCFEA;
 }
 
 .skills ul {
-    padding-top: 1.5rem;
+    padding: 10px;
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #eeeeee;
+    color: #744FC6;
 }
 
 .right-section-contents {
@@ -91,7 +93,7 @@
 }
 
 .right-title {
-    color: #eeeeee;
+    color: #292929;
 }
 
 .gap {
@@ -99,7 +101,7 @@
 }
 .about-me-contents {
     font-size: 18px;
-    color: #eeeeee;
+    color: #292929;
 }
 
 .experience-contents,
@@ -108,7 +110,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #F1F8FD;
+    color: #292929;
 }
 
 .exp-company-name,
@@ -116,6 +118,7 @@
 .awards-company-name {
     font-size: 25px;
     font-weight: bold;
+    color: #744FC6;
 }
 
 .exp-time-period,
@@ -128,6 +131,7 @@
 .education-subject,
 .awards-name {
     font-size: 25px;
+    color: #744FC6;
 }
 
 .exp-desc,
